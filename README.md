@@ -81,3 +81,10 @@ To get an artist's gender, I used the web service: [__genderize.io__](https://ww
 Based off a sample of about 1400 artists, where I manual checked all artists from 1957, 1977, 1997, and 2017, the race predictions stand at ~95% accuracy while the gender predictions stand at ~99% accuracy. 
 
 In the case of race predictions, I took a conservative approach, meaning that for every one artists who was non-white that was predicted to be white, there were many more artists who were white that was predicted to be non-white.
+
+## Limitations of this methodology:
+When producing these dataset, it was put into the position of identifying the race and gender categories to classify each artist by.
+
+Because of the methodology, tools and datasets that I used, one of the primary limitations is that we are left with a binary definition of gender, limited either to male or female. This does not work for artists who do not conform to the male/female gender binary, and for artist groups that have multiple members of which there could be multiple genders.
+
+Additionally, the races are artists are classified into either white, black, asian, hispanic, indian or aian (Native Hawaiian or Other Pacific). As race is a social construct, this classification is somewhat arbitrary, and there are often cases where people do not identify with any one of these categories. 
