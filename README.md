@@ -31,13 +31,15 @@ Download the pickled file from "data/exhibition_MMDDYYYY.pkl"
 | 2007 | Brice Marden | 1 | October 29, 2006–January 15, 2007 | Brice Marden: A Retrospective of Paintings and... | The Museum of Modern Art | <p>This exhibition presents one of the most in... | 
 | .. | .. | .. | .. | .. | .. | .. |
 
-# Methodolgy:
+# Data Collection [Methodology]:
 The outline of the steps that are taken to acquire the data.
 1. Scrape exhibition and artist data from the MoMA's website
 2. Assign race to each artist
 3. Assign gender to each artist
 
-## Data Collection - Web scraping
+Please see the data-collection.ipynb to view the code.
+
+## Web scraping
 As of 4/6/18, the MoMA has had 4968 exhibits.
 
 The exhibition dataset is a set of all exhibitions that have been hosted by the The Museum of Modern Art, MoMA PS1, or moma.org. Exhibitions can be scraped from urls such as: [https://www.moma.org/calendar/exhibitions/100](https://www.moma.org/calendar/exhibitions/100), where 100 represents the id of some exhibit.
@@ -75,7 +77,7 @@ For example, if we were to assign the lastname "Brown" to a race, we will start 
 ### Gender Data
 To get an artist's gender, I used the web service: [__genderize.io__](https://www.genderize.io). This service simply takes in a name and spits out a gender, and the probability of its accuracy. 
 
-# Data Accuracy
+## Data Accuracy
 Based off a sample of about 1400 artists, where I manual checked all artists from 1957, 1977, 1997, and 2017, the race predictions stand at ~95% accuracy while the gender predictions stand at ~99% accuracy. 
 
 In the case of race predictions, I took a conservative approach, meaning that for every one artists who was non-white that was predicted to be white, there were many more artists who were white that was predicted to be non-white.
