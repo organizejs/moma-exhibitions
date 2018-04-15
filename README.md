@@ -1,6 +1,6 @@
 # Analysis of the Diversity of the MoMA's exhibitions
 
-The purpose of this effort is to understand who the MoMA, as one of the leading contemporary and modern art institions, chooses to make visible as participants of the canon of modern and contemporary art. 
+The purpose of this effort is to understand who the MoMA, as one of the leading contemporary and modern art institutions, chooses to make visible as participants of the canon of modern and contemporary art. 
 
 ### Specific goals:
 - make the MoMAs archive of exhibitions, and artists who have been exhibited, available as downloadable files (.pkl)
