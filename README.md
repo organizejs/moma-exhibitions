@@ -87,4 +87,4 @@ When producing these dataset, it was put into the position of identifying the ra
 
 Because of the methodology, tools and datasets that I used, one of the primary limitations is that we are left with a binary definition of gender, limited either to male or female. This does not work for artists who do not conform to the male/female gender binary, and for artist groups that have multiple members of which there could be multiple genders.
 
-Additionally, the races are artists are classified into either white, black, asian, hispanic, indian or aian (Native Hawaiian or Other Pacific). As race is a social construct, this classification is somewhat arbitrary, and there are often cases where people do not identify with any one of these categories. 
+Additionally, the races are artists are classified into either white, black, asian, hispanic, indian, mix, or aian (Native Hawaiian or Other Pacific). As race is a social construct, this classification is somewhat arbitrary, and there are often cases where people do not identify with any one of these categories. 
