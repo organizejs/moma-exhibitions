@@ -1,6 +1,6 @@
 # Analysis of the Diversity of the MoMA's exhibitions
 
-The purpose of this effort is to understand who the MoMA, as one of the leading contemporary and modern art institions, chooses to make visible as participants of the canon of modern and contemporary art. 
+The purpose of this effort is to understand who the MoMA, as one of the leading contemporary and modern art institutions, chooses to make visible as participants of the canon of modern and contemporary art. 
 
 ### Specific goals:
 - make the MoMAs archive of exhibitions, and artists who have been exhibited, available as downloadable files (.pkl)
@@ -87,4 +87,4 @@ When producing these dataset, it was put into the position of identifying the ra
 
 Because of the methodology, tools and datasets that I used, one of the primary limitations is that we are left with a binary definition of gender, limited either to male or female. This does not work for artists who do not conform to the male/female gender binary, and for artist groups that have multiple members of which there could be multiple genders.
 
-Additionally, the races are artists are classified into either white, black, asian, hispanic, indian or aian (Native Hawaiian or Other Pacific). As race is a social construct, this classification is somewhat arbitrary, and there are often cases where people do not identify with any one of these categories. 
+Additionally, the races are artists are classified into either white, black, asian, hispanic, indian, mix, or aian (Native Hawaiian or Other Pacific). As race is a social construct, this classification is somewhat arbitrary, and there are often cases where people do not identify with any one of these categories. 
